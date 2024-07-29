@@ -15,11 +15,16 @@ export default function Footer() {
         style={{ backgroundColor: "#263238" }}
       >
         <div
-          className="w-25 d-flex flex-column justify-content-around m-md-0 m-3"
+          className="Hero-Image-Size d-flex flex-column justify-content-around m-md-0 m-3"
           style={{ height: "60%" }}
         >
-          <img style={{ width: "80%" }} src="./Logo1.png" alt="" />
-          <p className="text-white">
+          <img
+            className=" object-fit-contain"
+            style={{ width: "70%" }}
+            src="./Logo1.png"
+            alt=""
+          />
+          <p className="text-white mt-md-0 mt-3">
             Copyright © 2020 Nexcent ltd. <br /> All rights reserved
           </p>
           <div
