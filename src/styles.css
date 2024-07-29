@@ -21,7 +21,7 @@ h6 {
 }
 
 .Hero-Image-Size {
-  width: 40%;
+  width: 25%;
 
   @media (max-width: 768px) {
     width: 70%;

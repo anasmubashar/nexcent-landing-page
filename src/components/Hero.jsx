@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
       <img
         className=" object-fit-contain my-auto order-md-1 order-0 Hero-Image-Size mx-md-0 mx-auto"
-        src="./public/Illustration.png"
+        src="./Illustration.png"
         alt=""
       />
     </div>

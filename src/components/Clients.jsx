@@ -19,12 +19,12 @@ export default function Clients() {
           We have been working with some Fortune 500+ clients
         </p>
         <div className="d-flex justify-content-around mb-5">
-          <img src="./public/Logo.svg" alt="" />
-          <img src="./public/Logo2.svg" alt="" />
-          <img src="./public/Logo3.svg" alt="" />
-          <img src="./public/Logo4.svg" alt="" />
-          <img src="./public/Logo5.svg" alt="" />
-          <img src="./public/Logo6.svg" alt="" />
+          <img src="./Logo.svg" alt="" />
+          <img src="./Logo2.svg" alt="" />
+          <img src="./Logo3.svg" alt="" />
+          <img src="./Logo4.svg" alt="" />
+          <img src="./Logo5.svg" alt="" />
+          <img src="./Logo6.svg" alt="" />
         </div>
         <p className="fs-2 text-center fw-bold">
           Manage your entire community <br /> in a single system
@@ -34,7 +34,7 @@ export default function Clients() {
         </p>
         <div className="d-flex flex-md-row flex-column align-items-md-baseline align-items-center justify-content-md-evenly mt-4">
           <Contents
-            img={"./public/icon.svg"}
+            img={"./Icon.svg"}
             title={"Membership Organisations"}
             description={
               "Our membership management software provides full automation of membership renewals and payments"
@@ -42,7 +42,7 @@ export default function Clients() {
             alt={"Community-icon"}
           />
           <Contents
-            img={"./public/icon2.svg"}
+            img={"./Icon2.svg"}
             title={"National Associations"}
             description={
               "Our membership management software provides full automation of membership renewals and payments"
@@ -50,7 +50,7 @@ export default function Clients() {
             alt={"Building-icon"}
           />
           <Contents
-            img={"./public/icon3.svg"}
+            img={"./Icon3.svg"}
             title={"Clubs And Groups"}
             description={
               "Our membership management software provides full automation of membership renewals and payments"
@@ -60,7 +60,7 @@ export default function Clients() {
         </div>
       </div>
       <Unlock
-        img={"./public/Frame 35.png"}
+        img={"./Frame 35.png"}
         title={"The unseen of spending three years at Pixelgrade"}
       />
     </>
