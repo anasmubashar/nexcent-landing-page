@@ -48,7 +48,7 @@ export default function Body() {
             <div className="d-flex w-100 h-50 justify-content-around">
               <div className="d-flex w-50 align-items-center">
                 <img
-                  className="me-3 object-fit-scale h-50"
+                  className="me-3 object-fit-scale icon-size"
                   src="./public/icon6.svg"
                   alt=""
                 />
@@ -59,7 +59,7 @@ export default function Body() {
               </div>
               <div className="d-flex w-50 align-items-center">
                 <img
-                  className=" me-3 object-fit-scale h-50"
+                  className=" me-3 object-fit-scale icon-size"
                   src="./public/icon7.svg"
                   alt=""
                 />

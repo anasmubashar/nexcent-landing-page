@@ -12,6 +12,14 @@ h6 {
   font-family: "Sora";
 }
 
+.icon-size {
+  height: 75%;
+
+  @media (max-width: 768px) {
+    height: 50%;
+  }
+}
+
 .Hero-Image-Size {
   width: 40%;
 
