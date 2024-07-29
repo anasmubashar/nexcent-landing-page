@@ -1,0 +1,113 @@
+.silver-color {
+  background-color: #f5f7fa;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora";
+}
+
+.Hero-Image-Size {
+  width: 40%;
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+}
+
+.Hero-Size {
+  height: 55vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
+}
+
+.Card-Size {
+  width: 30%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.Res-image {
+  width: 40%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.Marketing-height {
+  height: 45vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
+}
+
+.Res-text-1 {
+  width: 60%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.Res-image-3 {
+  width: 35%;
+
+  @media (max-width: 768px) {
+    width: 60%;
+  }
+}
+
+.Res-image-2 {
+  width: 50%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.Card-width {
+  width: 25%;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}
+
+.height-2 {
+  height: 25vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
+}
+
+.height {
+  height: 30vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
+}
+
+.Res-text {
+  width: 50%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+/* .Responsive-img {
+
+} */
