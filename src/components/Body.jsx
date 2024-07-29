@@ -24,7 +24,7 @@ export default function Body() {
               <div className="d-flex w-50 align-items-center">
                 <img
                   className=" h-50 me-3 object-fit-scale"
-                  src="./public/vector.png"
+                  src="./vector.png"
                   alt=""
                 />
                 <div>
@@ -36,7 +36,7 @@ export default function Body() {
                 <img
                   style={{ height: "65%" }}
                   className="me-3 object-fit-scale"
-                  src="./public/Group 2.png"
+                  src="./Group 2.png"
                   alt=""
                 />
                 <div>
@@ -49,7 +49,7 @@ export default function Body() {
               <div className="d-flex w-50 align-items-center">
                 <img
                   className="me-3 object-fit-scale icon-size"
-                  src="./public/icon6.svg"
+                  src="./icon6.svg"
                   alt=""
                 />
                 <div>
@@ -60,7 +60,7 @@ export default function Body() {
               <div className="d-flex w-50 align-items-center">
                 <img
                   className=" me-3 object-fit-scale icon-size"
-                  src="./public/icon7.svg"
+                  src="./icon7.svg"
                   alt=""
                 />
                 <div>
