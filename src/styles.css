@@ -12,6 +12,23 @@ h6 {
   font-family: "Sora";
 }
 
+.Service-Cards {
+  width: 30%;
+  border: black;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.form-size {
+  width: 40%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
 .icon-size {
   height: 75%;
 

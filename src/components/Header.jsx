@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <nav className="navbar silver-color">
@@ -20,12 +22,21 @@ export default function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <div className="navbar-nav ">
-            <p className="nav-item nav-link me-3 mb-0">Home</p>
-            <p className="nav-item nav-link me-3 mb-0">Service</p>
-            <p className="nav-item nav-link me-3 mb-0">Feature</p>
-            <p className="nav-item nav-link me-3 mb-0">Product</p>
-            <p className="nav-item nav-link me-3 mb-0">Testimonials</p>
-            <p className="nav-item nav-link mb-0">FAQ</p>
+            <Link to="/" className="">
+              <p className="nav-item nav-link me-3 mb-0">Home</p>
+            </Link>
+            <Link to="/About" className="">
+              <p className="nav-item nav-link me-3 mb-0">About</p>
+            </Link>
+            <Link to="/Services" className="">
+              <p className="nav-item nav-link me-3 mb-0">Services</p>
+            </Link>
+            <Link to="/Contact" className="">
+              <p className="nav-item nav-link me-3 mb-0">Contact</p>
+            </Link>
+            {/* <Link to="/" className="">
+              <p className="nav-item nav-link me-3 mb-0">Testimonials</p>
+            </Link> */}
           </div>
           <div className="navbar-nav">
             <button
@@ -40,12 +51,20 @@ export default function Header() {
           </div>
         </div>
         <div className="d-md-flex d-none">
-          <p className="me-2 mb-0">Home</p>
-          <p className="me-2 mb-0">Service</p>
-          <p className="me-2 mb-0">Feature</p>
-          <p className="me-2 mb-0">Product</p>
-          <p className="me-2 mb-0">Testimonials</p>
-          <p className="mb-0">FAQ</p>
+          <Link to="/" className="nav-item nav-link">
+            <p className="me-4 mb-0 fs-5">Home</p>
+          </Link>
+
+          <Link to="/About" className="nav-item nav-link">
+            <p className="me-4 mb-0 fs-5">About</p>
+          </Link>
+          <Link to="/Services" className="nav-item nav-link">
+            <p className="me-4 mb-0 fs-5">Service</p>
+          </Link>
+          <Link to="/Contact" className="nav-item nav-link">
+            <p className="me-4 mb-0 fs-5">Contact</p>
+          </Link>
+          {/* <p className="me-2 mb-0">Testimonials</p> */}
         </div>
         <div className="d-md-flex d-none">
           <button
