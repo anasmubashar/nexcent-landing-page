@@ -50,7 +50,7 @@ export default function Contact() {
         <button
           type="submit"
           className="btn btn-success"
-          onClick={(e) => {
+          onSubmit={(e) => {
             e.preventDefault();
 
             alert(`thanks ${name} for contacting us`);
