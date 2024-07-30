@@ -10,7 +10,14 @@ export default function Contact() {
     <>
       <Header />
       <h1 className=" text-center mt-5 mb-5">Contact Us</h1>
-      <form className="container mx-auto d-flex flex-column align-items-sm-center">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+
+          alert(`thanks ${name} for contacting us`);
+        }}
+        className="container mx-auto d-flex flex-column align-items-sm-center"
+      >
         <label className="fw-bold" htmlFor="#name">
           Full Name
         </label>
@@ -50,11 +57,6 @@ export default function Contact() {
         <button
           type="submit"
           className="btn btn-success"
-          onSubmit={(e) => {
-            e.preventDefault();
-
-            alert(`thanks ${name} for contacting us`);
-          }}
           style={{ width: "100px" }}
         >
           Submit
